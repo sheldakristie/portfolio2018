@@ -473,12 +473,15 @@ header{
 .skillset .container{
 	padding-top:66px ;
 	padding-bottom:64px ;
+
 }
 .skillbar {
 	position:relative;
 	display:block;
+	margin-left: auto;
+    margin-right: auto;
 	margin-bottom:53px;
-	width:100%;
+	width:50%;
 	background:#e2e1e2;
 	height:7px;
 	border-radius:3px;
@@ -494,6 +497,7 @@ header{
 	-ms-transition-property:width, background-color;
 	-o-transition-property:width, background-color;
 	transition-property:width, background-color;
+	justify-content: center;
 }
 
 .skillbar-title {
