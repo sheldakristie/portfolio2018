@@ -741,46 +741,29 @@ span.hoverBox .smallIcon{
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	margin-left: -80px;
+	margin-left: -100px;
 	margin-top: -37px;
 }
 
 span.hoverBox .zoom{
 	visibility:hidden;
-	width:74px;
+	width:200px;
 	height:74px;
-	border:1px solid #fff; /*ini ntar bordernya di bikin 0px aja*/
-	color:#fff;
-	position: relative;
-	left:-180%;
-	/*background:url(../images/plus-icon.png) 50% 50% no-repeat;*/
-	margin-left:47px;
-	/*top:40%;*/
-	text-align:center;
-	line-height:20px;
-	display: block;
-	float: left;
-
-	/*visibility:hidden;
+	border:0px solid #fff;
 	color:#fff;
 	position: absolute;
-	font-family: 'Montserrat', sans-serif;
-	font-size:15px;
 	/*background:url(../images/plus-icon.png) 50% 50% no-repeat;*/
-	/*top:40%;
+	margin-left:0px;
 	text-align:center;
 	line-height:20px;
 	display: block;
-	/*top: 50%;
-	left: 50%;
-	margin-right: -50%;
-	transform: translate(50%, -50%);*/
+	align-content: center;
 	
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 	
-	-webkit-border-radius: 50%;
-	border-radius: 50%;
+	/*-webkit-border-radius: 50%;
+	border-radius: 50%;*/
 }
 ul.portfolioContainer li:hover span.hoverBox .zoom{
 	visibility:visible;
@@ -899,6 +882,33 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 }
 .protfolio .btn-primary:hover {
 	color:#979497;
+}
+
+/*----------------------------------------------------
+	9. Portfolio Single Page
+------------------------------------------------------*/
+
+.portsingle{
+	background:#ffffff;
+	text-align:center;
+}
+.portsingle .container{
+	padding-top:80px ;
+	padding-bottom:47px ;
+	width: 50%;
+}
+.portsingle img {
+	padding:7px;
+	display:block;
+	border:1px solid #bab4bb;
+}
+.portsingle .heading p{
+	padding-bottom:41px;
+}
+.portsingle h4 {
+	font-size:16px;
+	color:#5b4c5c;
+	padding-bottom:20px;
 }
 
 /*----------------------------------------------------
